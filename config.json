@@ -14,15 +14,15 @@
     "eventDisabled": [],
     "autoClean": true,
     "ACCESSTOKEN": "",
-    "BOTNAME": "Lương Trường Khôi",
+    "BOTNAME": "AnhCode🤖",
     "AMDIN_NAME": "Cảm ơn bạn, mình đi đây",
-    "FACEBOOK_ADMIN": "https://www.facebook.com/100018277053087",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/61552193366536",
     "PREFIX": "/",
     "ADMINBOT": [
-        "100018277053087"
+        "61552193366536"
     ],
     "NDH": [
-        "100018277053087"
+        "61552193366536"
     ],
     "DATABASE": {
         "sqlite": {
