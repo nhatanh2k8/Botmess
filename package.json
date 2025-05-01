@@ -1,5 +1,5 @@
 {
-  "name": "LunarKrystal",
+  "name": "AnhCode",
   "version": "4.5.0",
   "description": "Developed by LunarKrystal",
   "main": "mirai.js",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/chungdat02/Mirai-V2.git"
   },
-  "author": "Cao.C.Đạt",
+  "author": "AnhCode",
   "license": "GPL-3.0",
   "dependencies": {
     "@google/generative-ai": "^0.17.0",
