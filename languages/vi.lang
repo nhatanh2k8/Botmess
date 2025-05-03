@@ -20,17 +20,17 @@ mirai.finishLoadModule=Đã tải thành công %1 module commands và %2 module 
 mirai.foundPathAppstate=Đã tìm thấy file appstate
 mirai.notFoundPathAppstate=Không tìm thấy file appstate hoặc chưa nhập, vui lòng kiểm tra lại
 mirai.checkListGban=Đang kiểm tra danh sách BANNED...
-mirai.banDevice=Hiện tại thiết bị của bạn đã bị ban khỏi Bot JRT, liên hệ tới facebook https://fb.me/NHD.JRT.262!!!
+mirai.banDevice=Hiện tại thiết bị của bạn đã bị ban khỏi Bot AnhCode, liên hệ tới facebook https://fb.me/61552193366536!!!
 mirai.keyNotSameFormat=Dữ liệu bạn nhập phải là một dãy số bao gồm 6 chữ số!
 mirai.codeInputExpired=Code bạn nhập không trùng khớp hoặc đã hết hạn!
-mirai.unbanDeviceSuccess=Facebook ID của bạn đã được gỡ ban, hãy khởi động lại để có thể tiếp tục sử dụng KRYSTAL BOT!!!
-mirai.userBanned=Bạn đã bị ban khỏi Bot KRYSTAL vào lúc %1 với lý do: %2.\nVui lòng liên hệ ADMIN qua:\n📌FB: Https://www.facebook.com/100018277053087. để biết thêm chi tiết!
+mirai.unbanDeviceSuccess=Facebook ID của bạn đã được gỡ ban, hãy khởi động lại để có thể tiếp tục sử dụng AnhCode Bot!!!
+mirai.userBanned=Bạn đã bị ban khỏi Bot AnhCode vào lúc %1 với lý do: %2.\nVui lòng liên hệ ADMIN qua:\n📌FB: Https://www.facebook.com/61552193366536. để biết thêm chi tiết!
 mirai.finishCheckListGban=Đã kiểm tra xong danh sách BANNED
 mirai.handleListenError=handleListener đã xảy ra một số lỗi, lỗi: %1
 mirai.warningSourceCode=\nKRYSTAL BOT update complete!!!
 mirai.refreshListen=Đã làm mới lại handleListener...
-mirai.successConnectDatabase=Dữ liệu KRYSTAL BOT đã được kết nối thành công!!
-mirai.failConnectDatabase=Dữ liệu KRYSTAL BOT đã được kết nối thất bại!!, lỗi: %1. Vui lòng hãy kiểm tra lại!!
+mirai.successConnectDatabase=Dữ liệu AnhCode BOT đã được kết nối thành công!!
+mirai.failConnectDatabase=Dữ liệu AnhCode BOT đã được kết nối thất bại!!, lỗi: %1. Vui lòng hãy kiểm tra lại!!
 
 # includes/listen.js
 
@@ -58,11 +58,11 @@ users.needObject=Phải là một Object
 
 # includes/handle/handleCommand.js
 
-handleCommand.userBanned=Hiện tại bạn đang bị cấm sử dụng bot!\nLiên hệ FB: https://www.facebook.com/100018277053087 để biết thêm chi tiết.\nNội dung: %1\nTime xúc phạm: %2
-handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị cấm sử dụng bot!\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/100018277053087.\nĐể có thể xin và sử dụng lại bot.\n%1\n%2
+handleCommand.userBanned=Hiện tại bạn đang bị cấm sử dụng bot!\nLiên hệ FB: https://www.facebook.com/161552193366536 để biết thêm chi tiết.\nNội dung: %1\nTime xúc phạm: %2
+handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị cấm sử dụng bot!\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/61552193366536.\nĐể có thể xin và sử dụng lại bot.\n%1\n%2
 handleCommand.commandNotExist= Xin chào!\nTôi là bot, có vẻ bạn đã nhập sai tên lệnh hoặc lệnh không tồn tại, bạn cần giúp gì hay không ?\n\nChúng tôi tìm thấy lệnh gần giống là "%1".
-handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/100018277053087
-handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/100018277053087
+handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/61552193366536
+handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"\nVui lòng liên hệ ADMIN qua:\n📌FB: https://www.facebook.com/61552193366536
 handleCommand.threadNotAllowNSFW=Nhóm của bạn không được phép sử dụng những lệnh cấm NSFW vì nó chứa nội dung 18+ 
 handleCommand.cantGetInfoThread=Không thể lấy thông tin của nhóm, lỗi: %1
 handleCommand.permssionNotEnough= Xin lỗi vì bạn là thành viên nên lệnh  "%1" sẽ không hoạt động. Chỉ có quản trị viên hoặc ADMIN dùng được!!!
@@ -101,4 +101,4 @@ handleSchedule.exectuteError=Đã xảy ra lỗi trong lúc schedule tại modul
 
 # utils/index.js
 
-utils.throwError= » Dùng lệnh sai rồi bạn ơi vui lòng sử dụng %1help %2 để biết thêm hướng dẫn sử dụng bot.\nNếu bạn thấy khó hiểu quá vui lòng liên hệ ADMIN qua:FB:https://www.facebook.com/100018277053087.\nXin cảm ơn!
+utils.throwError= » Dùng lệnh sai rồi bạn ơi vui lòng sử dụng %1help %2 để biết thêm hướng dẫn sử dụng bot.\nNếu bạn thấy khó hiểu quá vui lòng liên hệ ADMIN qua:FB:https://www.facebook.com/61552193366536.\nXin cảm ơn!
