@@ -9,7 +9,7 @@ module.exports.config = {
   cooldowns: 5,
 };
 module.exports.run = async function ({ api, event, args, Currencies, Users }) {
-  if (this.config.credits !== "Dũngkon")
+  if (this.config.credits !== "AnhCode")
     return api.sendMessage(
       "Đã bảo đừng thay credits rồi mà không nghe, thay lại credits ngay không là đéo dùng được đâu nha",
       event.threadID,
